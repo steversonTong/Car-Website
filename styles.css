@@ -183,3 +183,7 @@ img {
   right: 1rem;
   cursor: pointer;
 }
+
+.show-menu {
+  right: 0;
+}
