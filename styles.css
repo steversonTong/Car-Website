@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&family=Raleway:wght@100&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3.5rem;
+
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --first-color: ;
+  --first-color-alt: ;
+  --title-color: ;
+  --text-color: ;
+  --text-color-light: ;
+  --white-color: ;
+  --body-color: ;
+  --container-color: ;
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Exo", sans-serif;
+  --h1-font-size: ;
+  --h2-font-size: ;
+  --h3-font-size: ;
+  --normal-font-size: ;
+  --small-font-size: ;
+  --smaller-font-size: ;
+
+  /*========== Font weight ==========*/
+  --font-medium: ;
+  --font-semi-bold: ;
+
+  /*========== z index ==========*/
+  --z-tooltip: ;
+  --z-fixed: ;
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --h1-font-size: ;
+    --h2-font-size: ;
+    --h3-font-size: ;
+    --normal-font-size: ;
+    --small-font-size: ;
+    --smaller-font-size: ;
+  }
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: ;
+  padding: ;
+  margin: ;
+}
+
+html {
+  scroll-behavior: ;
+}
+
+body {
+  font-family: ;
+  font-size: ;
+  background-color: ;
+  color: ;
+}
+
+h1,
+h2,
+h3 {
+  color: ;
+  font-weight: ;
+}
+
+ul {
+  list-style: ;
+}
+
+a {
+  text-decoration: ;
+}
+
+img {
+  max-width: ;
+  height: ;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+  max-width: ;
+  margin-right: ;
+  margin-left: ;
+}
+
+.grid {
+  display: ;
+  gap: ;
+}
+
+.section {
+  padding: ;
+}
+
+.section__title {
+  font-size: ;
+  text-align: ;
+  margin-bottom: ;
+}
+
+.main {
+  overflow: ;
+}
