@@ -333,3 +333,9 @@ img {
     box-shadow: 0 0 24px hsl(158, 98%, 43%);
   }
 }
+
+.scroll-header {
+  border-radius: 0 0 1rem 1rem;
+  background-color: var(--body-color);
+  box-shadow: 0 2px 4px hsla(0, 0%, 1%, 1);
+}
