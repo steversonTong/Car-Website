@@ -672,3 +672,12 @@ img {
 .featured_card:hover .featured_img {
   transform: translateX(-0.25rem);
 }
+
+.active-featured {
+  background-color: var(--first-color);
+}
+
+.active-featured span,
+.active-featured img {
+  opacity: 1;
+}

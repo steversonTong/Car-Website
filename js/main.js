@@ -59,3 +59,10 @@ let mixerFeatured = mixitup(".featured_content", {
     duration: 300,
   },
 });
+
+const linkFeatured = document.querySelectorAll(".featured_item");
+function activeFeatured() {
+  linkFeatured.forEach((l) => l.classList.remove("active-featured"));
+  this.classList.add("active-featured");
+}
+linkFeatured.forEach((l) => l.addEventListener("click", activeFeatured));
