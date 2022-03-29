@@ -487,3 +487,11 @@ img {
 .popular_card:hover .popular_img {
   transform: translateY(-0.25rem);
 }
+
+.swiper-pagination-bullet {
+  background: var(--text-color);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--first-color);
+}
