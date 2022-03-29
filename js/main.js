@@ -50,3 +50,12 @@ let swiperPopular = new Swiper(".popular_container", {
     },
   },
 });
+
+let mixerFeatured = mixitup(".featured_content", {
+  selectors: {
+    target: ".featured_card",
+  },
+  animation: {
+    duration: 300,
+  },
+});
