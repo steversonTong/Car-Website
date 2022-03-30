@@ -66,3 +66,10 @@ function activeFeatured() {
   this.classList.add("active-featured");
 }
 linkFeatured.forEach((l) => l.addEventListener("click", activeFeatured));
+
+function scrollUp() {
+  const scrollUp = document.getElementById("scroll-up");
+  if (this.scrollY >= 350) scrollUp.classList.add("show-scroll");
+  else scrollUp.classList.remove("show-scroll");
+}
+window.addEventListener("scroll", scrollUp);
